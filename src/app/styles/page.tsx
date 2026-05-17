@@ -29,6 +29,7 @@ export default {
             <pre><code>
             {`
 import './globals.css';
+import './global.css';
             `}
             </code></pre>
 
