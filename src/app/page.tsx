@@ -11,6 +11,7 @@ export default function Home() {
         <li>React</li>
         <li><Link href="/rules">フォルダとファイルの規則</Link></li>
         <li><Link href="/pages">ページの作成</Link></li>
+        <li><Link href="/styles">スタイルの設定：Tailwind CSS</Link></li>
       </ul>
       <h2>参考文献</h2>
       <p>このウェブサイトの内容は主に次のウェブサイトの内容に基づいている。</p>

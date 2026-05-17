@@ -14,7 +14,7 @@ export default function Page() {
             <h3>ページ間のリンク</h3>
             <p>ページ間のリンクを作成するには，<code>&lt;Link&gt;</code>コンポーネントを使用する。これは<code>&lt;a&gt;</code>タグを拡張してプリフェッチとクライアントサイドのナビゲーションを提供する。</p>
             <pre><code>
-{`
+            {`
 import Link from 'next/link';
 
 export default function Page() {
@@ -22,7 +22,7 @@ export default function Page() {
         <Link href="/about">About</Link>
     );
 };
-`}
+            `}
             </code></pre>
         </>
     )
