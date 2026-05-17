@@ -1,0 +1,59 @@
+export default function Page() {
+    return (
+        <>
+            <h1>フォルダとファイルの規則</h1>
+            <h2>トップレベルフォルダ</h2>
+            <p>アプリケーションのコードとアセットの組織化のために使用する。</p>
+            <dl>
+                <dt><code>app</code></dt>
+                <dd>アプリケーションのコードを配置するフォルダ。</dd>
+                <dt><code>public</code></dt>
+                <dd>静的アセットを配置するフォルダ。</dd>
+                <dt><a href="https://nextjsjp.org/docs/app/api-reference/file-conventions/src-folder" target="_blank" rel="noopener noreferrer"><code>src</code></a></dt>
+                <dd>アプリケーションのコードを配置するフォルダ。</dd>
+            </dl>
+            <h2>トップレベルファイル</h2>
+            <p>アプリケーションの設定，依存関係の管理，プロキシの実行，監視ツールの統合，環境変数の定義に使用する。</p>
+            <dl>
+                <dt><code>next.config.js</code></dt>
+                <dd>Next.jsの設定ファイル。</dd>
+                <dt><code>package.json</code></dt>
+                <dd>依存関係とスクリプトの管理に使用する。</dd>
+                <dt><code>proxy.ts</code></dt>
+                <dd>プロキシの実行に使用する。</dd>
+                <dt><code>.env</code></dt>
+                <dd>環境変数を定義するファイル。</dd>
+                <dt><code>tsconfig.json</code></dt>
+                <dd>TypeScriptの設定ファイル。</dd>
+                <dt><code>eslint.config.js</code></dt>
+                <dd>ESLintの設定ファイル。</dd>
+                <dt><code>.gitignore</code></dt>
+                <dd>Gitの無視ファイル。</dd>
+                <dt><code>README.md</code></dt>
+                <dd>アプリケーションの説明を含むファイル。</dd>
+            </dl>
+            <h2>ルーティングファイル</h2>
+            <p>ルーティングとページの構造を定義するために使用する。</p>
+            <dl>
+                <dt><code>layout.tsx</code></dt>
+                <dd>レイアウトを定義するファイル。</dd>
+                <dt><code>page.tsx</code></dt>
+                <dd>ページを定義するファイル。</dd>
+                <dt><code>loading.tsx</code></dt>
+                <dd>ローディング状態を定義するファイル。</dd>
+                <dt><code>error.tsx</code></dt>
+                <dd>エラー状態を定義するファイル。</dd>
+                <dt><code>global-error.tsx</code></dt>
+                <dd>グローバルエラー状態を定義するファイル。</dd>
+                <dt><code>not-found.tsx</code></dt>
+                <dd>ページが見つからない状態を定義するファイル。</dd>
+                <dt><code>route.ts</code></dt>
+                <dd>APIエンドポイントを定義するファイル。</dd>
+                <dt><code>template.tsx</code></dt>
+                <dd>再レンダリングされるレイアウトを定義するファイル。</dd>
+                <dt><code>default.tsx</code></dt>
+                <dd>Parallel Routeフォールバックページを定義するファイル。</dd>
+            </dl>
+        </>
+    )
+}
