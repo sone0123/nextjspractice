@@ -22,8 +22,8 @@ export default function Page() {
             <p>したがってJavaScriptの制御フローと組み合わせることで，より柔軟にUIを構築することができる。</p>
             <h3>エクスポートとインポート</h3>
             <ul>
-                <li>Default構文：<code>export default MyComponent() &#x7B;&#x7D;</code>でエクスポートし，<code>import MyComponent from './MyComponent'</code>でインポートする。</li>
-                <li>Named構文：<code>export function MyComponent() &#x7B;&#x7D;</code>でエクスポートし，<code>import &#x7B; MyComponent &#x7D; from './MyComponent'</code>でインポートする。</li>
+                <li>Default構文：<code>export default MyComponent() &#x7B;&#x7D;</code>でエクスポートし，<code>import MyComponent from &apos;./MyComponent&apos;</code>でインポートする。</li>
+                <li>Named構文：<code>export function MyComponent() &#x7B;&#x7D;</code>でエクスポートし，<code>import &#x7B; MyComponent &#x7D; from &apos;./MyComponent&apos;</code>でインポートする。</li>
             </ul>
             <h3>JSXのルール</h3>
             <ul>
