@@ -8,7 +8,7 @@ export default function Home() {
       <p>すべてのリソースは<a href="https://github.com/sone0123/nextjspractice" target="_blank" rel="noopener noreferrer">GitHub</a>にある。</p>
       <h2>ノート</h2>
       <ul>
-        <li>React</li>
+        <li><Link href="/react">React</Link></li>
         <li><Link href="/rules">フォルダとファイルの規則</Link></li>
         <li><Link href="/pages">ページの作成</Link></li>
         <li><Link href="/styles">スタイルの設定：Tailwind CSS</Link></li>

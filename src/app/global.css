@@ -75,10 +75,14 @@ dd {
     line-height: 1.6;
 }
 
-ul,
-ol {
+ul {
     list-style: inside;
     padding-inline-start: 20px;
+}
+
+ol {
+    list-style: decimal inside;
+    padding-inline-start: 10px;
 }
 
 dt {
