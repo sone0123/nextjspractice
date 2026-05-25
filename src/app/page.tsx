@@ -3,7 +3,7 @@ import Link from 'next/link';
 export default function Home() {
   return (
     <>
-      <h1>Notes on Next.js</h1>
+      <h1>Home</h1>
       <p>このウェブサイトはNext.jsとその周辺情報に関するノートをまとめたものである。</p>
       <p>すべてのリソースは<a href="https://github.com/sone0123/nextjspractice" target="_blank" rel="noopener noreferrer">GitHub</a>にある。</p>
       <h2>ノート</h2>

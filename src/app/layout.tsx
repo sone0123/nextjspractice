@@ -1,5 +1,10 @@
 import './globals.css';
 import './global.css';
+import Header from './ui/header';
+import Nav from './ui/nav';
+import Aside from './ui/aside';
+import Article from './ui/article';
+import Footer from './ui/footer';
 
 export default function RootLayout({
   children,
@@ -8,7 +13,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja">
-      <body>{children}</body>
+      <body>
+        <Header />
+        <Nav />
+        <Article>
+          {children}
+        </Article>
+        <Aside />
+        <Footer />
+      </body>
     </html>
   );
 }
