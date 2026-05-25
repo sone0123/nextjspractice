@@ -29,7 +29,6 @@ h1 {
     font-weight: bold;
     border-bottom: 4px solid var(--color-primary);
     padding-bottom: 10px;
-    margin-top: 0;
     margin-bottom: 20px;
 }
 
@@ -75,10 +74,14 @@ dd {
     line-height: 1.6;
 }
 
-ul,
-ol {
+ul {
     list-style: inside;
     padding-inline-start: 20px;
+}
+
+ol {
+    list-style: decimal inside;
+    padding-inline-start: 10px;
 }
 
 dt {
